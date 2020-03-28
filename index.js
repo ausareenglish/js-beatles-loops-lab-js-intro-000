@@ -36,7 +36,7 @@ function johnLennonFacts(lennonFacts) {
 }
 
 
-function iLoveTheBeatles() {
+function iLoveTheBeatles(num) {
   
   var emptyArray = [];
   
@@ -44,7 +44,7 @@ function iLoveTheBeatles() {
     
     emptyArray.unshift("I love the Beatles!");
     
-      while
+      while (num < 15)
     
   }
   
