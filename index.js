@@ -45,10 +45,11 @@ function iLoveTheBeatles(num) {
     emptyArray.unshift("I love the Beatles!");
     
       while (num < 15)
+      num ++;
     
   }
   
-  
+  return emptyArray;
   
   
   
