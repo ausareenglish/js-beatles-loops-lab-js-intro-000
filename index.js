@@ -26,7 +26,7 @@ function johnLennonFacts(lennonFacts) {
 
   while (i < lennonFacts.length) {
   
-   facts2.push(lennonFacts[i] + "!!!");
+   facts2 = facts2.push(lennonFacts[i] + "!!!");
    i++;
   }
   
