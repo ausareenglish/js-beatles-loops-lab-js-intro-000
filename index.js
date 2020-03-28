@@ -38,15 +38,22 @@ function johnLennonFacts(lennonFacts) {
 
 function iLoveTheBeatles(num) {
   
+  //creates variable that stores empty array
+  
   var emptyArray = [];
   
+  
+  
   do {
-    
+    //adds "I love Beatles to empty array"
+    // incremenents num variable
     emptyArray.unshift("I love the Beatles!");
     num++;
     
+    //loop will continue as long as num is less than 15 
      } while (num < 15);
     
+    // returns array newly filled array
   return emptyArray;
   
   
