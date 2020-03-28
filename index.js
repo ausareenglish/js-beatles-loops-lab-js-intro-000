@@ -27,7 +27,7 @@ function johnLennonFacts (lennonFacts) {
 }
   while (i < facts.length) {
   
-  var factsfacts.push(...lennonFacts[i], "!!!")
+   let facts2 = facts.push(...lennonFacts[i], "!!!")
   
   
   
