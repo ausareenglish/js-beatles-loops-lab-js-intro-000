@@ -24,7 +24,7 @@ function johnLennonFacts(lennonFacts) {
 
 // for loop that adds "!!!" to ever index in new array
 
-  while (i < facts.length) {
+  while (i < lennonFacts.length) {
   
    facts2 = facts2.push(lennonFacts[i] + "!!!");
    i++;
