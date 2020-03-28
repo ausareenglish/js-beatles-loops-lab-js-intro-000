@@ -20,19 +20,14 @@ function johnLennonFacts(lennonFacts) {
   
   let facts2 = [];
   
-  
-// creates counter function
+  let i = 0;
 
-  function lennonCounter() {
-      let i = 0;
-      i++;
-}
+// for loop that adds "!!!" to ever index in new array
 
-// for loop that adds "!!!" to ever index in 
-  while (lennonCounter() < facts.length) {
+  while (i < facts.length) {
   
    facts2 = facts2.push(lennonFacts[i] + "!!!");
-   
+   i++;
   }
   
   return facts2;
