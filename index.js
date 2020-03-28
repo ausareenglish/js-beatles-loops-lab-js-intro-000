@@ -38,7 +38,9 @@ function johnLennonFacts(lennonFacts) {
 
 function iLoveTheBeatles() {
   
+  var emptyArray = [];
   
+  do 
   
   
   
