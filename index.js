@@ -16,22 +16,13 @@ function theBeatlesPlay(musicians, instruments) {
 
 function johnLennonFacts(lennonFacts) {
   
-  // creates varaible wih empty array 
+  // creates variable wih empty array 
   
   let facts2 = [];
   
-  //creates array with John Lennon facts
   
-  const facts = [
-  "He was the last Beatle to learn to drive",
-  "He was never a vegetarian",
-  "He was a choir boy and boy scout",
-  "He hated the sound of his own voice"
-];
-
 // creates counter function
 
-let facts2 = [];
   function lennonCounter() {
       let i = 0;
       i++;
@@ -40,9 +31,11 @@ let facts2 = [];
 // for loop that adds "!!!" to ever index in 
   while (lennonCounter() < facts.length) {
   
-   let facts2 = facts2.push(lennonFacts[i] + "!!!")
+   facts2 = facts2.push(lennonFacts[i] + "!!!");
+   
+  }
   
-  
+  return facts2;
   
   
 }
