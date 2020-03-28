@@ -29,7 +29,7 @@ let facts2 = [];
 }
   while (lennonCounter() < facts.length) {
   
-   let facts2 = facts.push(lennonFacts[i] + "!!!")
+   facts.push(lennonFacts[i] + "!!!")
   
   
   
