@@ -40,7 +40,13 @@ function iLoveTheBeatles() {
   
   var emptyArray = [];
   
-  do 
+  do {
+    
+    emptyArray.unshift("I love the Beatles!");
+    
+    
+    
+  }
   
   
   
